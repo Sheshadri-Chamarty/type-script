@@ -34,3 +34,4 @@ let arr2:number[][] = [[],[],[]]
 arr2 = [[2]]
 console.log(arr2)
 console.log(sum(a,b))
+console.log("hi")
