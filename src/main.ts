@@ -35,3 +35,18 @@ arr2 = [[2]]
 console.log(arr2)
 console.log(sum(a,b))
 console.log("hi")
+
+
+
+
+let sumall = function(a:number,b:number,c:number):number{
+  return a + b + c
+}
+
+console.log(sumall(5,3,4))
+
+let total = (...nums:number[]):number => {
+  return nums.reduce((prev,curr)=> prev+ curr)
+}
+
+console.log(total(1,2,5,6))
